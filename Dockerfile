@@ -38,4 +38,4 @@ RUN python${PYTHON_VERSION} -m pip install --upgrade pip
 COPY requirements.txt /root/requirements.txt
 RUN python${PYTHON_VERSION} -m pip install --ignore-installed PyYAML
 RUN python${PYTHON_VERSION} -m pip install -r /root/requirements.txt
-RUN python${PYTHON_VERISON} -m pip install --pre torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/nightly/cpu
+RUN python${PYTHON_VERSION} -m pip install --pre torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/nightly/cpu
