@@ -1,0 +1,15 @@
+torch
+torchvision
+torchaudio
+transformers
+numpy
+pandas
+seaborn
+scipy
+jupyter
+jupyterlab
+matplotlib
+dvc[s3]
+tqdm
+Pillow
+--extra-index-url https://download.pytorch.org/whl/cpu
